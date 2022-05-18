@@ -31,7 +31,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -542,14 +541,15 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
     font-weight: 100;
     z-index: 1;
     position: absolute;
-    top: 50%;
+    top: 140px;
+    left: 110px;
+    padding: 2px;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
@@ -572,7 +572,8 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    height: 600px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -582,7 +583,6 @@ a[data-lightbox]:hover img {
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
-    right: 15px;
     bottom: 5px;
 }
 
@@ -596,7 +596,7 @@ a[data-lightbox]:hover img {
     background: rgba(0, 0, 0, .5);
     border: none;
     line-height: 30px;
-    padding: 0 9px 5px;
+    padding: 5px 10px;
     opacity: 0.3;
 }
 
@@ -611,7 +611,7 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
     font-size: 20px;
     color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
+    background: white;
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
@@ -673,20 +673,20 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-family: "Open Sans";
 }
 
@@ -700,8 +700,9 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    max-width: 200px;
+    padding: 10px;
+    margin: auto;
 }
 
 h2 {
@@ -710,7 +711,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -718,7 +719,7 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -754,7 +755,7 @@ h4 {
 
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    padding: 40px;
 }
 
 .bold-link {
@@ -1039,4 +1040,17 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/*Modifications*/
+
+#textnonimages
+{
+    font-size: 22px;
+}
+
+#citation
+{
+    font-style: italic;
+    font-weight: bold;
 }
