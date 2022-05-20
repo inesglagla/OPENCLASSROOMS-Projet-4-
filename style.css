@@ -484,6 +484,9 @@ button {
 }
 
 .form-control {
+    display: block;
+    width: 100%;
+    height: 30px;
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
@@ -1002,6 +1005,7 @@ h4 {
 }
 
 /*Modifications*/
+/*Page accueil*/
 
 #textnonimages
 {
@@ -1029,11 +1033,20 @@ h4 {
     font-size: 19px;
 }
 
+/*Page Contact*/
+
 #textbloc6
 {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+#bloc7
+{
+    width: 100%;
+    height: 580px;
+    align-self: center;
 }
 
 #bloc-0 img
@@ -1044,4 +1057,32 @@ h4 {
 #imgcontact
 {
     padding-top: 10px;
+}
+
+.form-group
+{
+    padding-bottom: 20px;
+}
+
+.col-sm-6
+{
+    width: 50%;
+    float: left;
+}
+
+#coordonnees
+{
+    display: flex;
+    justify-content: center;
+}
+
+#coordonnees p
+{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+textarea.form-control 
+{
+    height: auto;
 }
