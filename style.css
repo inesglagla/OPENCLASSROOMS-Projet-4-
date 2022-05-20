@@ -38,11 +38,6 @@ a:hover {
     position: relative;
 }
 
-.bloc .container {
-    padding-left: 0;
-    padding-right: 0;
-}
-
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -287,7 +282,6 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
-    margin: 0 5px 0 0;
     display: inline;
 }
 
@@ -662,7 +656,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -739,7 +733,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(44, 19, 0, 0.7);
     padding: 40px;
 }
 
@@ -796,7 +790,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/agence-la-panthere.jpg");
 }
 
 .bg-lines-h2-bg {
@@ -1038,4 +1032,41 @@ h4 {
 {
     font-style: italic;
     font-weight: bold;
+}
+
+#navigation ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: flex-end;
+    gap: 30px;
+    padding: 25px;
+}
+
+#navigation a
+{
+    text-decoration: none;
+    font-size: 19px;
+}
+
+#textbloc6
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#bloc-0 img
+{
+    transform: scale(1.3);
+}
+
+#imgcontact
+{
+    padding-top: 10px;
+}
+
+.form-group
+{
+    line-height: 30px;
 }
