@@ -509,8 +509,8 @@ a[data-lightbox]:hover::before {
     font-weight: 100;
     z-index: 1;
     position: absolute;
-    top: 130px;
-    left: 100px;
+    top: 140px;
+    left: 110px;
     padding: 2px;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -1097,12 +1097,6 @@ textarea.form-control
         padding: 30px 0px 30px 0px;
         justify-content: flex-start;
     }
-
-    a[data-lightbox]:hover::before
-    {
-        top: 140px;
-        left: 115px;
-    }
 }
 
 /*Mobile*/
@@ -1112,12 +1106,6 @@ textarea.form-control
     #bloc-0 img 
     {
         transform: scale(1.0);
-    }
-
-    a[data-lightbox]:hover::before
-    {
-        top: 100px;
-        left: 70px;
     }
 
     #lightbox-modal .modal-dialog img
@@ -1140,22 +1128,9 @@ textarea.form-control
         padding: 10px;
     }
 
-    #navigation ul
-    {
-        width: 80%;
-        display: inline-block;
-        gap:0px;
-    }
-    
     .cards
     {
         margin-bottom: 100px;
-    }
-
-    a[data-lightbox]:hover::before
-    {
-        top: 200px;
-        left: 170px;
     }
 }
 
