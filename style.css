@@ -734,7 +734,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #A26850;
 }
 
 .tc-white {
@@ -742,7 +742,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #A26850;
     color: #FFFFFF!important;
 }
 
@@ -1063,6 +1063,12 @@ h4 {
 textarea.form-control 
 {
     height: auto;
+}
+
+.fondcolor
+{
+    padding: 20px;
+    background-color: rgba(44, 19, 0, 0.7);
 }
 
 /*Tablette*/
