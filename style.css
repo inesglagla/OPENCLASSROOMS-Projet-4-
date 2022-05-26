@@ -812,9 +812,7 @@ h4 {
 }
 
 @media (max-width: 991px) {
-    .container {
-        width: 100%;
-    }
+    
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1065,6 +1063,16 @@ textarea.form-control
     height: auto;
 }
 
+.container
+{
+    margin: auto;
+}
+
+.col-sm-12
+{
+    text-align: center;
+}
+
 .fondcolor
 {
     padding: 20px;
@@ -1132,5 +1140,11 @@ textarea.form-control
     #lightbox-modal .modal-dialog img
     {
         height: 230px;
+    }
+
+    .cards a
+    {
+        width: 100px;
+        height: 100px;
     }
 }
