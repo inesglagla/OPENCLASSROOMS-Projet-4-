@@ -1073,6 +1073,11 @@ textarea.form-control
     text-align: center;
 }
 
+.bloc-8-2
+{
+    margin-top: 100px;
+}
+
 .fondcolor
 {
     padding: 20px;
@@ -1140,11 +1145,5 @@ textarea.form-control
     #lightbox-modal .modal-dialog img
     {
         height: 230px;
-    }
-
-    .cards a
-    {
-        width: 100px;
-        height: 100px;
     }
 }
