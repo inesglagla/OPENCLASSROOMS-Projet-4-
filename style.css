@@ -812,7 +812,6 @@ h4 {
 }
 
 @media (max-width: 991px) {
-    
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1084,6 +1083,12 @@ textarea.form-control
     background-color: rgba(44, 19, 0, 0.7);
 }
 
+.cards img
+{
+    width: 400px;
+    height: 270px;
+}
+
 /*Tablette*/
 
 @media (max-width:768px)
@@ -1097,6 +1102,11 @@ textarea.form-control
     {
         padding: 30px 0px 30px 0px;
         justify-content: flex-start;
+    }
+
+    #navigation ul
+    {
+        padding-right: 0px;
     }
 }
 
@@ -1132,6 +1142,14 @@ textarea.form-control
     .cards
     {
         margin-bottom: 100px;
+    }
+
+    .cards img
+    {
+        margin: auto;
+        margin-bottom: 24px;
+        width: 310px;
+        height: 260px;
     }
 }
 
